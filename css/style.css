@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body { 
@@ -16,8 +17,11 @@ body {
 }
 
 header {
+    width: 100%;
+    position: fixed;
     background-color: white;
     grid-area: header;
+    z-index: 9999;
 }
 
 main {
@@ -242,12 +246,12 @@ footer {
 
 .title-2-container {
     width: 100%;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 700;
     color: white;
     text-align: center;
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 30px 0;
     background-color: #2f2f2f;
 }
 
@@ -346,6 +350,7 @@ footer {
 }
 
 .video-container iframe {
+    border-radius: 5px;
     box-shadow: 0 0 16px rgba(0, 0, 0, .4);
     margin: 20px;
 }
