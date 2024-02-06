@@ -31,7 +31,6 @@ header {
 a {
     text-decoration: none;
     color: #000;
-    padding: 0 10px;
 }
 
 .logo-container {
@@ -58,6 +57,7 @@ nav a {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
+    padding: 0 10px;
 }
 
 nav li {
@@ -82,7 +82,6 @@ footer {
     align-items: center;
     background-color: #cfcfcf;
     grid-area: footer;
-
 }
 
 .description-container {
@@ -93,7 +92,7 @@ footer {
 }
 
 .description-home {
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .description-socialmedia img {
