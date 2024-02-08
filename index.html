@@ -14,24 +14,35 @@
     <body>
         <!-- HEADER -->     
         <header>
-            <!-- Logo -->
-            <div class="logo-container">
-                <a href="./index.html">
-                    <img src="./images/logo.jpg" alt="Logo">
-                </a>
-                <a href="./index.html">
-                    <h1>Paulo Londra</h1>
-                </a>
-            </div>
-            <!-- Menu -->
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/discografia.html">Discografía</a></li>
-                    <li><a href="./pages/galeria.html">Galería</a></li>
-                    <li><a href="./pages/clubfans.html">Nosotros</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
+            <nav class="navbar navbar-expand-xl fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.jpg" alt="Logo" class="d-inline-block align-text-top">
+                        Paulo Londra
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo2" aria-controls="navbarTogglerDemo2" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show justify-content-end" id="navbarTogglerDemo2">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./pages/discografia.html">Discografía</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">Galería</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./pages/clubfans.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <!-- MAIN -->
@@ -85,7 +96,7 @@
         <footer>
             <div class="description-container">
                 <div class="description-home">
-                    <a href="./index.html">
+                    <a href="#">
                         <p>Paulo Londra</p>
                     </a>
                 </div>
