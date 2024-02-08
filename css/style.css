@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body { 
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 80px auto 120px;
@@ -14,6 +15,10 @@ body {
         "main"
         "footer"
     ;
+}
+
+h1, h2, h3, p, ul {
+    margin-bottom: 0;
 }
 
 /* HEADER */
@@ -39,7 +44,11 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 20px;
+}
+
+.logo-container h1 {
+    font-weight: 600;
 }
 
 .logo-container img {
@@ -57,11 +66,11 @@ nav a {
     align-items: center;
     font-size: 16px;
     text-transform: uppercase;
-    font-weight: bold;
     padding: 0 10px;
 }
 
 nav li {
+    font-weight: 400;
     list-style: none;
     border-radius: 5px;
 }
@@ -85,18 +94,18 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 8px;
 }
 
 .description-home {
-    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 26px;
 }
 
 .description-socialmedia img {
     width: 20px;
     height: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 0 8px;
 }
 
 .copyright {
@@ -132,22 +141,17 @@ main {
 
 .banner-content {
     width: 100%;
-    font-size: 28px;
+    font-size: 24px;
     color: white;
     text-align: center;
     padding: 20px 0;
     background-color: black;
     position: absolute;
-    bottom: -35px;
+    bottom: -40px;
 }
 
 .banner-content span {
-    font-weight: bold;
-}
-
-#biography {
-    width: 100%;
-    font-size: 22px;
+    font-weight: 700;
 }
 
 .biography-container {
@@ -155,22 +159,32 @@ main {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 30px;
-    padding-top: 70px;
+    gap: 80px;
+    padding: 70px 0 30px 0;
 }
 
 .biography-description {
-    width: 440px;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+.biography-image {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .biography-description h2 {
     font-size: 28px;
+    font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
+}
+
+.biography-description p {
+    max-width: 500px;
+    font-size: 20px;
 }
 
 .biography-image img {
@@ -223,7 +237,7 @@ main {
 }
 
 .album-details p:first-child {
-    font-weight: bold;
+    font-weight: 600;
     border-right: 1px solid grey;
 }
 
@@ -234,7 +248,7 @@ main {
 .title-2-container {
     width: 100%;
     font-size: 28px;
-    font-weight: 700;
+    font-weight: b;
     color: white;
     text-align: center;
     text-transform: uppercase;
