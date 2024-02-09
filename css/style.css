@@ -101,12 +101,6 @@ footer {
     padding-bottom: 10px;
 }
 
-/* MAIN */
-main {
-    height: auto;
-    background-color: whitesmoke;
-}
-
 /* HOME */
 #banner {
     width: 100%;
@@ -178,6 +172,69 @@ main {
     box-shadow: 0 0 16px rgba(0, 0, 0, .6);
 }
 
+/* Titulos */
+.title-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #000;
+}
+
+.title-container h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+
+.title-container h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+}
+
+.title-container p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.title-2-container {
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0;
+    background-color: #2f2f2f;
+}
+
+.title-2-container h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.subtitle h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.subtitle-border {
+    width: 60px;
+    border-top: 2px solid black;
+    margin-top: 5px;
+}
+
 /* DISCOGRAFIA */
 #discrography {
     width: 100%;
@@ -192,15 +249,15 @@ main {
 }
 
 .album-container {
-    width: 800px;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin: 40px;
+    margin: 20px;
     background-color: rgba(0, 0, 0, .8);
     box-shadow: 0 0 16px rgba(0, 0, 0, .6);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .album-1 .subtitle-border, .album-2 .subtitle-border{
@@ -208,10 +265,11 @@ main {
 }
 
 .album-1, .album-2, .album-link {
-    width: 400px;
+    width: 50%;
 }
 
 .album-details {
+    font-size: 16px;
     display: flex;
     padding: 10px;
 }
@@ -228,17 +286,6 @@ main {
 
 #top {
     width: 100%;
-}
-
-.title-2-container {
-    width: 100%;
-    font-size: 28px;
-    font-weight: b;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 30px 0;
-    background-color: #2f2f2f;
 }
 
 .table-container {
@@ -385,33 +432,6 @@ main {
     align-items: center;
 }
 
-.title-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 0;
-    background-color: #000;
-}
-
-.title-container h1 {
-    font-size: 55px;
-    color: white;
-}
-
-.title-container h2 {
-    text-align: right;
-    text-transform: uppercase;
-    font-size: 22px;
-    color: white;
-}
-
-.title-container p {
-    font-size: 20px;
-    color: white;
-}
-
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -420,21 +440,8 @@ main {
     padding: 60px;
     margin: 30px 0;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 0 16px rgba(0, 0, 0, .1);
-}
-
-.subtitle {
-    font-size: 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-}
-
-.subtitle-border {
-    width: 50px;
-    border-top: 2px solid black;
 }
 
 .form-group {
