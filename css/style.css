@@ -417,14 +417,29 @@ footer {
 .video-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 15px 0;
+    align-items: flex-start;
+    margin: 30px 0;
 }
 
-.video-container iframe {
+.card-container {
+    margin: 0 20px;
+}
+
+.card-container iframe {
     border-radius: 5px;
     box-shadow: 0 0 16px rgba(0, 0, 0, .4);
-    margin: 15px;
+    margin-bottom: 15px;
+}
+
+.card-video-content {
+    width: 560px;
+    border-top: 1px solid #5b5b5b;
+    padding-top: 15px;
+}
+
+.card-video-content h5 {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /* NOSOTROS */
@@ -510,7 +525,7 @@ footer {
     padding: 12px;
     margin-top: 10px;
     border-radius: 5px;
-    border: 2px solid;
+    border: 2px solid #1c1c1c;
     transition: 0.2s;
 }
 
@@ -698,11 +713,20 @@ footer {
 
     .video-container {
         flex-direction: column;
+        align-items: center;
     }
 
-    .video-container iframe {
-        max-width: 350px;
+    .card-container {
+        margin: 10px 0;
+    }
+
+    .card-container iframe {
+        max-width: 360px;
         max-height: 250px;
+    }
+
+    .card-video-content {
+        max-width: 360px;
     }
 
     /* Nosotros */
